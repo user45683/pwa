@@ -2,15 +2,15 @@
 
 
 
-	//сервис-воркер
+// Register service worker to control making site work offline
 if ('serviceWorker' in navigator) {
-  navigator.serviceWorker.register('/pwa/service-worker.js').then(function(registration) {
-    console.log('Registration successful, scope is:', registration.scope);
-  }).catch(function(error) {
-    console.log('Service worker registration failed, error:', error);});};
+  navigator.serviceWorker
+    .register('/pwa/service-worker.js')
+    .then(() => { console.log('Service Worker Registered'); });
+}
 
 
-
+// Code to handle install prompt on desktop
 let deferredPrompt;
 const addBtn = document.querySelector('.add-button');
 addBtn.style.display = 'none';
