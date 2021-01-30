@@ -1,6 +1,6 @@
 
 
-alert(
+alert = () => {
 
 if ('serviceWorker' in navigator) {
   navigator.serviceWorker.register('/service-worker.js')
@@ -10,5 +10,5 @@ if ('serviceWorker' in navigator) {
   .catch(function(error) {
     console.log('Service worker registration failed, error:', error);
   });
+};
 }
-);
