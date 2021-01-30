@@ -1,6 +1,7 @@
 
 
-alert = () => {
+
+function addApp(){
 
 if ('serviceWorker' in navigator) {
   navigator.serviceWorker.register('/service-worker.js')
@@ -12,3 +13,4 @@ if ('serviceWorker' in navigator) {
   });
 };
 }
+document.getElementById('add-app').onclick = addApp();
