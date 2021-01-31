@@ -5,7 +5,7 @@
 	"name": "pwa",
 	"short_name": "pwa",
 	"start_url": "/pwa/index.html",
-	"background_color": "#000000",
+	"background_color": "#111111",
 	"theme_color": "transparent",
 	"display": "standalone",
 	"icons": [{
