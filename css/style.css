@@ -4,5 +4,6 @@
 .download-app{
 	box-shadow: 0 2px 2px #000000;
 	display: flex;
+	flex-wrap: wrap;
 	padding: 15px;
 	} 
