@@ -1,3 +1,6 @@
 *{box-sizing: border-box;}
 
 .add-button{} 
+.download-app{
+	display: flex;
+	} 
