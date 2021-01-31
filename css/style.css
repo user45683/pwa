@@ -1,7 +1,8 @@
 *{box-sizing: border-box;}
 
-.add-button{:} 
+.add-button{} 
 .download-app{
 	box-shadow: 0 2px 2px #000000;
 	display: flex;
+	padding: 15px;
 	} 
