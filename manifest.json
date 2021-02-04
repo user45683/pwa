@@ -4,10 +4,10 @@
 	"lang": "ru",
 	"name": "pwa",
 	"short_name": "pwa",
-	"start_url": "/pwa/index.html",
+	"start_url": "/pwa/index0.html",
 	"background_color": "#111111",
 	"theme_color": "transparent",
-	"display": "standalone",
+	"display": "fullscreen",
 	"icons": [{
 	"src": "images/icon_24.png",
 	"sizes": "24x24",
