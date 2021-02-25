@@ -5,6 +5,7 @@
 header{
 	background:#ffffff;
 	box-shadow:0 2px 2px #111111;
+	position: absolute;
 }
 
 		/*footer*/
