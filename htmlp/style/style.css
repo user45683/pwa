@@ -1,10 +1,11 @@
 *{box-sizing:border-box; margin:0; padding:0;}
-
+.shadow{
+	box-shadow: 0 4px 4px #111111;
+}
 
 		/*header*/
 header{
 	background:#ffffff;
-	box-shadow:0 2px 2px #111111;
 	position: fixed;
 	width:100%;
 	font-size: 24px;
