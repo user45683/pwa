@@ -20,4 +20,5 @@ header{
 	list-style: none;
 }
 .nav-collapse li{width:100%; display:block;}
+.nav-collape.oppened{max-height:9999px;}
 
