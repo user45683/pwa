@@ -3,15 +3,27 @@
 <meta charset="utf-8">
 <meta name="viewport" content="viewport-fit=cover, width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=5.0">
 <title>Печи, камины, барбекю</title>
+		<!--bootstrap-->
+<!-- Latest compiled and minified CSS -->         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"><!-- jQuery library -->                           <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<!-- Popper JS -->                                <script src="https://cdnjs.cloudflare.com/ajax/lib
+s/popper.js/1.16.0/umd/popper.min.js"></script>
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/boots
+trap/4.5.2/js/bootstrap.min.js"></script>
+                <!--bootstrap-->
 		<!--style-->
 <link rel="stylesheet" href="style/style.css">
 		<!--style-->
 </head><body><div class="container"><header class="shadow">
-<a href="#">Печи</a>
-<button type="button" class="nav-button">button
-<span></span><span></span><span></span>
-</button>	
-
+<a href="#home" class="logo" data-scroll>Печи</a>
+<nav class="nav-collapse">
+<ul>
+<li class="menu-item"><a href="#">home</a></li>
+<li class="menu-item"><a href="#">aj</a></li>
+<li class="menu-item"><a href="#contact">contact</a></li>
+<li class="menu-item"><a href="#">ak</a></li>
+</ul>
+</nav>
 </header>
 <div class="content">
 <div class="section-1 shadow">
@@ -29,7 +41,7 @@
 
 </div>
 
-<footer>
+<footer id="contact">
 <form action="">
 <input name="name" type="text" placeholder="Ваше имя"><br>
 <input name="email" type="text" placeholder="Ваша почта"><br>
