@@ -3,16 +3,8 @@ body{
 	font-style:italic;
 	text-align:center;
 }
-.shadow{box-shadow: 0 4px 4px #111111;}
 
 		/*content*/
-.content{
-	width:100%;
-}
-.content img{
-	width:100%;
-}
-
 
 
 		/*footer*/
