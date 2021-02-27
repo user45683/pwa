@@ -3,23 +3,8 @@ body{
 	font-style:italic;
 	text-align:center;
 }
-.shadow{
-	box-shadow: 0 4px 4px #111111;
-}
+.shadow{box-shadow: 0 4px 4px #111111;}
 
-		/*header*/
-header{
-	background:#ffffff;
-	position: fixed;
-	width:100%;
-	font-size: 24px;
-}
-header a{
-	text-decoration:none;
-	color: #111111;
-	padding: 20px 20px;
-}
-ul{}
 		/*content*/
 .content{
 	width:100%;
@@ -27,6 +12,8 @@ ul{}
 .content img{
 	width:100%;
 }
+
+
 
 		/*footer*/
 footer{

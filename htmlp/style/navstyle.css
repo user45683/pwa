@@ -1,0 +1,23 @@
+
+
+
+header{
+	background:#f4421a;
+	position:fixed;
+	z-index:3;
+	width:100%;
+	left:0;
+	top:0;
+}
+
+
+
+.nav-collapse ul{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	display: block;
+	list-style: none;
+}
+.nav-collapse li{width:100%; display:block;}
+
