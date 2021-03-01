@@ -21,7 +21,9 @@ header h1{text-align:center;
 /* * * * * * * * * * * * * * * * * * * * * * * *
  *              content
  * * * * * * * * * * * * * * * * * * * * * * * */
-
+#home{
+	border: 2px solid red;
+}
 
 
 /* * * * * * * * * * * * * * * * * * * * * * * *
