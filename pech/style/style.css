@@ -21,6 +21,11 @@ header h1{text-align:center;
 /* * * * * * * * * * * * * * * * * * * * * * * *
  *              content
  * * * * * * * * * * * * * * * * * * * * * * * */
+
+.content{
+	margin: auto 5%;
+	width: 90%;
+}
 #home{
 	border: 2px solid red;
 }
