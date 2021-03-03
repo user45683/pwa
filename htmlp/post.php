@@ -1,4 +1,3 @@
-<meta http-equiv='refresh' content='10; url=http://thecode.local/'>
 <meta charset="UTF-8" />
 <?php
 // Получаем значения переменных из пришедших данных
