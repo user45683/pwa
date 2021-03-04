@@ -8,7 +8,7 @@
 </head>
 <body>
 <div style="margin:10%;">
-<form method="post" action="/login/">
+<form method="post" action="action1.php">
 <table><tr>
 <td><label for="login">Логин</label></td>
 <td><input id="login" type="text" name="login">
