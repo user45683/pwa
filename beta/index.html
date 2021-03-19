@@ -15,11 +15,11 @@ rapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
 <!-- Latest compiled JavaScript -->               <script src="https://maxcdn.bootstrapcdn.com/boots
 trap/4.5.2/js/bootstrap.min.js"></script>                         <!--bootstrap-->
+<link rel="stylesheet" href="style/style.css">
 
 </head><body>
-<header>
 
-<nav class="navbar navbar-expand-md navbar-expand-lg navbar-dark bg-dark fixed-top">
+<nav class="navbar navbar-expand-md navbar-expand-lg navbar-dark bg-dark sticky-top">
 <a class="navbar-brand" href="#">Navbar</a>
 <button class="btn btn-dark navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 <span class="navbar-toggler-icon"></span></button>
@@ -36,7 +36,7 @@ trap/4.5.2/js/bootstrap.min.js"></script>                         <!--bootstrap-
 <div class="dropdown-divider"></div>
 <a class="dropdown-item" href="#">Something else here</a></div></li>
 <li class="nav-item">
-<a class="nav-link disabled" href="#">Disabled</a></li></ul>
+<a class="nav-link" href="#contacts">Контакты</a></li></ul>
     <form class="d-flex">
       <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
       <button class="btn btn-outline-success" type="submit">Search</button>
@@ -44,24 +44,36 @@ trap/4.5.2/js/bootstrap.min.js"></script>                         <!--bootstrap-
   </div>
 </nav>
 
-</header>
+
+<div class="content">
+
+<div class="container"><div class="row">
+
+<div class="col-lg-4 col-md-4 col-sm-12">
+<img class="img-fluid" align="center" src="image/image.jpeg" alt="not found"></div>
+
+<div class="col-lg-4 col-md-4 col-sm-12">
+<img class="img-fluid" align="center" src="image/image.jpeg" alt="not found"></div>
+
+<div class="col-lg-4 col-md-4 col-sm-12">
+<img class="img-fluid" align="center" src="image/image.jpeg" alt="not found"></div>
+
+<div class="col-lg-4 col-md-4 col-sm-12">
+<img class="img-fluid" align="center" src="image/image.jpeg" alt="not found"></div>
+
+</div></div></div>
 
 
-<div class="" style="margin-top:60px">
-
-
-</div>
-
-
-<footer class="bg-dark text-white">
-
-<form class="p-3" action="post.php" method="post" name="form">
+<footer class="bg-dark text-white p-3">
+<div class="row mt-5">
+<div class="col-sm-12 col-md-4 col-lg-4">
+<form action="" method="post" name="form">
 <div class="form-group">
 <input name="email" type="email" class="form-control" placeholder="name@example.com"></div>
 <div class="form-group">
 <input name="name" type="text" class="form-control"placeholder="Имя"></div>
 <div class="form-group">
-<textarea name="message" class="form-control" rows="3">Текс сообщения...</textarea></div>
+<textarea name="message" class="form-control" rows="3" placeholder="Текст сообщения..."></textarea></div>
 
 <div class="custom-control custom-checkbox mb-3">
 <input type="checkbox" class="custom-control-input" id="customControlValidation1" required>
@@ -69,7 +81,11 @@ trap/4.5.2/js/bootstrap.min.js"></script>                         <!--bootstrap-
 <div class="invalid-feedback">Example invalid feedback text</div></div>
 <button class="btn btn-outline-success" type="submit">Отправить</button>
 </form>
-
-<div class="text-center p-3">© 2021</div>
+</div>
+<div id="contacts" class="col-sm-12 col-md-4 col-lg-4">
+<div>Почта: <a href="mailto: ">name@example.com</a></div>
+<div>Телефон: <a href="tel: ">8-800-800-80-80</a></div>
+</div></div>
+<div>© 2021</div>
 </footer>
 </body></html>
