@@ -4,7 +4,7 @@
 	"lang": "ru",
 	"name": "pwa",
 	"short_name": "pwa",
-	"start_url": "/pwa/html0/index0.html",
+	"start_url": "/pwa/folder/index.php",
 	"background_color": "#111111",
 	"theme_color": "transparent",
 	"display": "fullscreen",
